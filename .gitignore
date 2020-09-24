@@ -1,0 +1,23 @@
+# .gitignore by J0sueTM
+# for https://github.com/J0sueTM/sfml-pong repository
+
+# blacklist all files
+*
+
+# whitelist directories
+!*/
+
+# blacklist bin/
+*bin/
+
+# whitelist media files
+!*.wav
+!*.ttf
+
+# whitelist cpp related files
+!*.cpp
+!*.h
+!*.hpp
+
+# whitelist shell files
+!*.sh
