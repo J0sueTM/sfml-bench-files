@@ -13,6 +13,7 @@
 # whitelist media files
 !*.wav
 !*.ttf
+!*.pdf
 
 # whitelist cpp related files
 !*.cpp
