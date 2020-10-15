@@ -1,5 +1,11 @@
 # !/bin/bash
 
+#create folders that can be unexistent
+if ![[ -d "bin" ]]; then
+    echo "Log: Creating bin folder"
+    mkdir bin/
+fi
+
 #remove old files
 echo "Log: Removing old files"
 if [[ -f "bin/main" ]]; then
