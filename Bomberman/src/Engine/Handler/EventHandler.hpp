@@ -12,6 +12,8 @@ class EventHandler {
         void handleEvents(sf::RenderWindow* targetWindow);
     private:
         sf::Event* handlerEvent = nullptr;
+
+        sf::Keyboard* handlerKeyboard = nullptr;
 };
 
 #endif
