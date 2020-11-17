@@ -22,3 +22,6 @@
 
 # whitelist shell files
 !*.sh
+
+# whitelist markdown files
+!*.md
